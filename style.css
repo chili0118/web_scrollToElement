@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微軟正黑體;
+}
+
+nav {
+  background: rgba(255, 194, 124, 0.8);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  padding: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  color: #fff;
+  font-size: 50px;
+}
+
+section:nth-of-type(odd) {
+  background: lightblue;
+}
+
+section:nth-last-of-type(even) {
+  background: pink;
+}
+/*# sourceMappingURL=style.css.map */
