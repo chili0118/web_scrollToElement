@@ -51,7 +51,7 @@ $(window).scroll(function () {
     // console.log(arrowTime);
 
     // 如果是綴大於等於箭頭上方就淡入
-    if(windowTop >= arrowTop) arrow.fadeIn(arrowTimeInt);
+    if(windowTop >= arrowTop) arrow.stop().fadeIn(arrowTimeInt);
     // 否則就淡出
     else arrow.fadeOut(arrowTimeInt);
 });
