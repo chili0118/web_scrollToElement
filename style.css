@@ -6,7 +6,7 @@
 }
 
 nav {
-  background: rgba(255, 194, 124, 0.8);
+  background: rgba(255, 194, 124, 0.5);
   height: 100px;
   position: fixed;
   width: 100%;
@@ -34,5 +34,16 @@ section:nth-of-type(odd) {
 
 section:nth-last-of-type(even) {
   background: pink;
+}
+
+#arrow {
+  width: 32px;
+  height: 32px;
+  background-image: url(./arrow.png);
+  position: fixed;
+  z-index: 2;
+  right: 50px;
+  bottom: 30px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
